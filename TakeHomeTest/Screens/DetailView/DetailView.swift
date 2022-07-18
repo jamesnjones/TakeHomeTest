@@ -25,7 +25,7 @@ struct DetailView: View {
                         .padding()
                     VideoView(videoId: items.id.videoId )
                         .frame( height: 220)
-                    Text(items.snippet.publishTime?.prefix(10) ?? "" )
+                    Text(items.snippet.publishTime?.convertToDisplayFormat() ?? "" )
                         .font(.caption)
                         .padding()
                     Text(items.snippet.description ?? "" )

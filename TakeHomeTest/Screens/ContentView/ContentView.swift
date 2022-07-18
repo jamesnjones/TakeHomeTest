@@ -37,7 +37,7 @@ struct ContentView: View {
                                         Text(user.snippet.title ?? "" )
                                             .font(.system(size: 12, weight: .medium, design: .monospaced))
                                             .fontWeight(.bold)
-                                        Text((user.snippet.publishTime?.prefix(10))!)
+                                        Text((user.snippet.publishTime?.convertToDisplayFormat() ?? ""))
                                             .font(.caption)
                                     }
                                     .padding()

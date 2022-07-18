@@ -20,6 +20,8 @@
 		A54833C328846C5600FAC1F4 /* DetailViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833C228846C5600FAC1F4 /* DetailViewModal.swift */; };
 		A54833C52884B96300FAC1F4 /* CommentsNameViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833C42884B96300FAC1F4 /* CommentsNameViewCell.swift */; };
 		A54833C72884BCB000FAC1F4 /* CommentsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833C62884BCB000FAC1F4 /* CommentsViewCell.swift */; };
+		A54833E92885BD3900FAC1F4 /* EXT-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833E82885BD3900FAC1F4 /* EXT-String.swift */; };
+		A54833EB2885BD4F00FAC1F4 /* EXT-Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833EA2885BD4F00FAC1F4 /* EXT-Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		A54833C228846C5600FAC1F4 /* DetailViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModal.swift; sourceTree = "<group>"; };
 		A54833C42884B96300FAC1F4 /* CommentsNameViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsNameViewCell.swift; sourceTree = "<group>"; };
 		A54833C62884BCB000FAC1F4 /* CommentsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewCell.swift; sourceTree = "<group>"; };
+		A54833E82885BD3900FAC1F4 /* EXT-String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EXT-String.swift"; sourceTree = "<group>"; };
+		A54833EA2885BD4F00FAC1F4 /* EXT-Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EXT-Date.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 			children = (
 				A54833852881DF5200FAC1F4 /* TakeHomeTestApp.swift */,
 				A54833CB2884BE9B00FAC1F4 /* Screens */,
+				A54833EC2885BE6400FAC1F4 /* Extensions */,
 				A54833CA2884BE8B00FAC1F4 /* CustomViews */,
 				A54833B7288379A700FAC1F4 /* Utilities */,
 				A54833BA288379DA00FAC1F4 /* Manager */,
@@ -191,6 +196,15 @@
 				A54833C92884BE8100FAC1F4 /* DetailView */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		A54833EC2885BE6400FAC1F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A54833E82885BD3900FAC1F4 /* EXT-String.swift */,
+				A54833EA2885BD4F00FAC1F4 /* EXT-Date.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,9 +360,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54833B9288379D400FAC1F4 /* NetworkManager.swift in Sources */,
+				A54833EB2885BD4F00FAC1F4 /* EXT-Date.swift in Sources */,
 				A54833B4288351BF00FAC1F4 /* ContentViewModal.swift in Sources */,
 				A54833882881DF5200FAC1F4 /* ContentView.swift in Sources */,
 				A54833C72884BCB000FAC1F4 /* CommentsViewCell.swift in Sources */,
+				A54833E92885BD3900FAC1F4 /* EXT-String.swift in Sources */,
 				A54833BC2883838300FAC1F4 /* DetailView.swift in Sources */,
 				A54833C028841C6300FAC1F4 /* VideoView.swift in Sources */,
 				A54833B62883799D00FAC1F4 /* ImageLoader.swift in Sources */,
