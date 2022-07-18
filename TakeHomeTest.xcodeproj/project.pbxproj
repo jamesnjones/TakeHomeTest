@@ -11,9 +11,15 @@
 		A54833882881DF5200FAC1F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833872881DF5200FAC1F4 /* ContentView.swift */; };
 		A548338A2881DF5400FAC1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54833892881DF5400FAC1F4 /* Assets.xcassets */; };
 		A548338D2881DF5400FAC1F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A548338C2881DF5400FAC1F4 /* Preview Assets.xcassets */; };
-		A54833972881DF5400FAC1F4 /* TakeHomeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833962881DF5400FAC1F4 /* TakeHomeTestTests.swift */; };
-		A54833A12881DF5400FAC1F4 /* TakeHomeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833A02881DF5400FAC1F4 /* TakeHomeTestUITests.swift */; };
-		A54833A32881DF5400FAC1F4 /* TakeHomeTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833A22881DF5400FAC1F4 /* TakeHomeTestUITestsLaunchTests.swift */; };
+		A54833B128834E9300FAC1F4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833B028834E9300FAC1F4 /* Network.swift */; };
+		A54833B4288351BF00FAC1F4 /* ContentViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833B3288351BF00FAC1F4 /* ContentViewModal.swift */; };
+		A54833B62883799D00FAC1F4 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833B52883799D00FAC1F4 /* ImageLoader.swift */; };
+		A54833B9288379D400FAC1F4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833B8288379D400FAC1F4 /* NetworkManager.swift */; };
+		A54833BC2883838300FAC1F4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833BB2883838300FAC1F4 /* DetailView.swift */; };
+		A54833C028841C6300FAC1F4 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833BF28841C6300FAC1F4 /* VideoView.swift */; };
+		A54833C328846C5600FAC1F4 /* DetailViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833C228846C5600FAC1F4 /* DetailViewModal.swift */; };
+		A54833C52884B96300FAC1F4 /* CommentsNameViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833C42884B96300FAC1F4 /* CommentsNameViewCell.swift */; };
+		A54833C72884BCB000FAC1F4 /* CommentsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54833C62884BCB000FAC1F4 /* CommentsViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +46,16 @@
 		A54833892881DF5400FAC1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A548338C2881DF5400FAC1F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A54833922881DF5400FAC1F4 /* TakeHomeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeHomeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A54833962881DF5400FAC1F4 /* TakeHomeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHomeTestTests.swift; sourceTree = "<group>"; };
 		A548339C2881DF5400FAC1F4 /* TakeHomeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeHomeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A54833A02881DF5400FAC1F4 /* TakeHomeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHomeTestUITests.swift; sourceTree = "<group>"; };
-		A54833A22881DF5400FAC1F4 /* TakeHomeTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHomeTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A54833B028834E9300FAC1F4 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		A54833B3288351BF00FAC1F4 /* ContentViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModal.swift; sourceTree = "<group>"; };
+		A54833B52883799D00FAC1F4 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		A54833B8288379D400FAC1F4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A54833BB2883838300FAC1F4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A54833BF28841C6300FAC1F4 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		A54833C228846C5600FAC1F4 /* DetailViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModal.swift; sourceTree = "<group>"; };
+		A54833C42884B96300FAC1F4 /* CommentsNameViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsNameViewCell.swift; sourceTree = "<group>"; };
+		A54833C62884BCB000FAC1F4 /* CommentsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				A54833842881DF5200FAC1F4 /* TakeHomeTest */,
-				A54833952881DF5400FAC1F4 /* TakeHomeTestTests */,
-				A548339F2881DF5400FAC1F4 /* TakeHomeTestUITests */,
 				A54833832881DF5200FAC1F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,7 +105,12 @@
 			isa = PBXGroup;
 			children = (
 				A54833852881DF5200FAC1F4 /* TakeHomeTestApp.swift */,
-				A54833872881DF5200FAC1F4 /* ContentView.swift */,
+				A54833CB2884BE9B00FAC1F4 /* Screens */,
+				A54833CA2884BE8B00FAC1F4 /* CustomViews */,
+				A54833B7288379A700FAC1F4 /* Utilities */,
+				A54833BA288379DA00FAC1F4 /* Manager */,
+				A54833B228834E9A00FAC1F4 /* Modal */,
+				A54833C128841C6E00FAC1F4 /* UIRepresentable */,
 				A54833892881DF5400FAC1F4 /* Assets.xcassets */,
 				A548338B2881DF5400FAC1F4 /* Preview Content */,
 			);
@@ -110,21 +125,72 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A54833952881DF5400FAC1F4 /* TakeHomeTestTests */ = {
+		A54833B228834E9A00FAC1F4 /* Modal */ = {
 			isa = PBXGroup;
 			children = (
-				A54833962881DF5400FAC1F4 /* TakeHomeTestTests.swift */,
+				A54833B028834E9300FAC1F4 /* Network.swift */,
 			);
-			path = TakeHomeTestTests;
+			path = Modal;
 			sourceTree = "<group>";
 		};
-		A548339F2881DF5400FAC1F4 /* TakeHomeTestUITests */ = {
+		A54833B7288379A700FAC1F4 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				A54833A02881DF5400FAC1F4 /* TakeHomeTestUITests.swift */,
-				A54833A22881DF5400FAC1F4 /* TakeHomeTestUITestsLaunchTests.swift */,
+				A54833B52883799D00FAC1F4 /* ImageLoader.swift */,
 			);
-			path = TakeHomeTestUITests;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A54833BA288379DA00FAC1F4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A54833B8288379D400FAC1F4 /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		A54833C128841C6E00FAC1F4 /* UIRepresentable */ = {
+			isa = PBXGroup;
+			children = (
+				A54833BF28841C6300FAC1F4 /* VideoView.swift */,
+			);
+			path = UIRepresentable;
+			sourceTree = "<group>";
+		};
+		A54833C82884BE7600FAC1F4 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				A54833872881DF5200FAC1F4 /* ContentView.swift */,
+				A54833B3288351BF00FAC1F4 /* ContentViewModal.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		A54833C92884BE8100FAC1F4 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A54833BB2883838300FAC1F4 /* DetailView.swift */,
+				A54833C228846C5600FAC1F4 /* DetailViewModal.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		A54833CA2884BE8B00FAC1F4 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				A54833C42884B96300FAC1F4 /* CommentsNameViewCell.swift */,
+				A54833C62884BCB000FAC1F4 /* CommentsViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		A54833CB2884BE9B00FAC1F4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A54833C82884BE7600FAC1F4 /* ContentView */,
+				A54833C92884BE8100FAC1F4 /* DetailView */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +203,7 @@
 				A548337E2881DF5200FAC1F4 /* Sources */,
 				A548337F2881DF5200FAC1F4 /* Frameworks */,
 				A54833802881DF5200FAC1F4 /* Resources */,
+				A54833AF28834DD000FAC1F4 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -252,13 +319,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A54833AF28834DD000FAC1F4 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A548337E2881DF5200FAC1F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54833B9288379D400FAC1F4 /* NetworkManager.swift in Sources */,
+				A54833B4288351BF00FAC1F4 /* ContentViewModal.swift in Sources */,
 				A54833882881DF5200FAC1F4 /* ContentView.swift in Sources */,
+				A54833C72884BCB000FAC1F4 /* CommentsViewCell.swift in Sources */,
+				A54833BC2883838300FAC1F4 /* DetailView.swift in Sources */,
+				A54833C028841C6300FAC1F4 /* VideoView.swift in Sources */,
+				A54833B62883799D00FAC1F4 /* ImageLoader.swift in Sources */,
+				A54833C328846C5600FAC1F4 /* DetailViewModal.swift in Sources */,
 				A54833862881DF5200FAC1F4 /* TakeHomeTestApp.swift in Sources */,
+				A54833C52884B96300FAC1F4 /* CommentsNameViewCell.swift in Sources */,
+				A54833B128834E9300FAC1F4 /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +363,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A54833972881DF5400FAC1F4 /* TakeHomeTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +370,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A54833A32881DF5400FAC1F4 /* TakeHomeTestUITestsLaunchTests.swift in Sources */,
-				A54833A12881DF5400FAC1F4 /* TakeHomeTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
